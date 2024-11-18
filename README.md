@@ -1,6 +1,6 @@
 # CFSafety: Comprehensive Fine-grained Safety Assessment for LLMs
 
-[CFSafety](https://github.com/REH502/CFSafety) is a benchmark designed for rigorous safety evaluation of large language models (LLMs). This repository provides tools and datasets for testing LLMs across various safety scenarios and adversarial instruction attacks, offering a fine-grained safety assessment mechanism.
+[CFSafety](https://arxiv.org/abs/2410.21695) is a benchmark designed for rigorous safety evaluation of large language models (LLMs). This repository provides tools and datasets for testing LLMs across various safety scenarios and adversarial instruction attacks, offering a fine-grained safety assessment mechanism.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -41,11 +41,11 @@ To set up and run the CFSafety framework:
 ## Usage
 To use the CFSafety framework:
 
-1. Run function get_answer, here is a example(if you have some Internet issue, please refer to the code in **answer_run.py**):
+1. Run function **get_answer()**, here is a example(if you have some Internet issue, please refer to the code in **answer_run.py**):
    ```bash
    get_answer("GPT4", GPT4_api, "harmful_question.csv")
 
-2. Run function LLM_evaluate(), and you can use the AllRadar() get our radar chart:
+2. Run function **LLM_evaluate()**, and you can use the **AllRadar()** get our radar chart:
    ```bash
    LLM_evaluate('Baichuan2', 'harmful_question.csv', 'Baichuan2_answer.csv')
 
