@@ -42,11 +42,11 @@ To set up and run the CFSafety framework:
 To use the CFSafety framework:
 
 1. Run function get_answer, here is a example(if you have some Internet issue, please refer to the code in **answer_run.py**):
-```bash
-get_answer("GPT4", GPT4_api, "harmful_question.csv")
+   ```bash
+   get_answer("GPT4", GPT4_api, "harmful_question.csv")
 
 2. Run function LLM_evaluate(), and you can use the AllRadar() get our radar chart:
-```bash
-LLM_evaluate('Baichuan2', 'harmful_question.csv', 'Baichuan2_answer.csv')
+   ```bash
+   LLM_evaluate('Baichuan2', 'harmful_question.csv', 'Baichuan2_answer.csv')
 
    
